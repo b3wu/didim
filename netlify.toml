@@ -1,19 +1,12 @@
-# netlify.toml — konfiguracja dla didim
-
 [build]
-  command   = "npm run build"
-  publish   = "dist"
+  publish = "."
   functions = "netlify/functions"
 
-# Upewnij się, że pakiety są traktowane jako zewnętrzne w bundlu funkcji
 [functions]
   node_bundler = "esbuild"
-
-[functions."*"]
-  # Pakiety, które mają zostać dołączone z node_modules w runtime,
-  # a nie zbundle'owane (ważne m.in. dla nodemailer)
   external_node_modules = ["@supabase/supabase-js", "stripe", "nodemailer"]
 
-# (Opcjonalnie) Wymuś wersję Node na serwerze Netlify — dopasuj do lokalnej
-[build.environment]
-  NODE_VERSION = "20"
+[[headers]]
+for = "/.netlify/functions/payment-success"
+  [headers.values]
+  Content-Type = "application/json"
