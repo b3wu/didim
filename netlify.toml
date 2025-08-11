@@ -1,12 +1,9 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
   functions = "netlify/functions"
 
-[functions]
-  node_bundler = "esbuild"
-  external_node_modules = ["@supabase/supabase-js","stripe"]
-
-[[headers]]
-for = "/.netlify/functions/payment-success"
-  [headers.values]
-  Content-Type = "application/json"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
