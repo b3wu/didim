@@ -2,12 +2,12 @@
 
 window.MENU = {
   "Europa": [
-    { id:"pasta-beef-mushrooms", n:"Makaron z wołowiną i grzybami", p:44, d:"Sos grzybowo-śmietanowy, wołowina, grzyby, grana padano, koperek", img:"./assets/img/menu/ramen-classic.jpg" },
-    { id:"tatar-kimchi", n:"Tatar z kimchi", p:39, d:"Polędwica wołowa, sos sojowy, sriracha-mayo, kimchi, kolendra, pieczywo", img:"./assets/img/menu/gyoza.jpg" },
-    { id:"tatar-klasyczny", n:"Tatar klasyczny", p:38, d:"Polędwica, ogórek, cebula, żółtko, musztarda, karczochy, pieczywo", img:"./assets/img/menu/gyoza.jpg" },
-    { id:"tatar-polski", n:"Tatar polski", p:41, d:"Polędwica, duszona cebula na maśle z białym winem, ser Szafir, tost", img:"./assets/img/menu/gyoza.jpg" },
-    { id:"carbonara", n:"Makaron Carbonara", p:42, d:"Świeży makaron, guanciale, sos na bazie żółtek, parmezan", img:"./assets/img/menu/ramen-classic.jpg" },
-    { id:"pasta-krewetki", n:"Makaron z krewetkami", p:46, d:"Krewetki, suszone pomidory, czosnek, cebula, pietruszka, mascarpone", img:"./assets/img/menu/ramen-classic.jpg" }
+    { id:"pasta-beef-mushrooms", n:"Makaron z wołowiną i grzybami", p:44, d:"Sos grzybowo-śmietanowy, wołowina, grzyby, grana padano, koperek", img:"./assets/img/menu/ph_6.jpg" },
+    { id:"tatar-kimchi", n:"Tatar z kimchi", p:39, d:"Polędwica wołowa, sos sojowy, sriracha-mayo, kimchi, kolendra, pieczywo", img:"./assets/img/menu/ph_6.jpg" },
+    { id:"tatar-klasyczny", n:"Tatar klasyczny", p:38, d:"Polędwica, ogórek, cebula, żółtko, musztarda, karczochy, pieczywo", img:"./assets/img/menu/ph_6.jpg" },
+    { id:"tatar-polski", n:"Tatar polski", p:41, d:"Polędwica, duszona cebula na maśle z białym winem, ser Szafir, tost", img:"./assets/img/menu/ph_6.jpg" },
+    { id:"carbonara", n:"Makaron Carbonara", p:42, d:"Świeży makaron, guanciale, sos na bazie żółtek, parmezan", img:"./assets/img/menu/ph_6.jpg" },
+    { id:"pasta-krewetki", n:"Makaron z krewetkami", p:46, d:"Krewetki, suszone pomidory, czosnek, cebula, pietruszka, mascarpone", img:"./assets/img/menu/ph_6.jpg" }
   ],
 
   "Pizza Special": [
