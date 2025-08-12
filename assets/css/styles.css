@@ -33,3 +33,6 @@ a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
 .table{width:100%;border-collapse:collapse}.table th,.table td{border-bottom:1px solid var(--line);padding:8px;text-align:left}
 .qty{display:inline-flex;align-items:center;gap:6px}.qty button{border:1px solid var(--line);background:var(--card);color:#fff;border-radius:8px;padding:6px 10px;cursor:pointer}
 label{display:block;margin:6px 0}input,select,textarea{width:100%;padding:8px;border:1px solid var(--line);background:#000;color:#fff;border-radius:8px}
+
+/* DODANE: przycisk „Usuń” w tabeli zamówienia */
+.remove{border:1px solid var(--line);background:var(--card);color:#fff;border-radius:8px;padding:6px 10px;cursor:pointer}
